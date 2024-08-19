@@ -51,10 +51,20 @@ The string `<4sxii400s` describes how to pack the data:
 
 # IP address and port
 
-    # change this based on your XPlane computer ip address
-    IP = '192.168.1.36'
-    # Standard or default port number for XPLane 12
-    PORT = 49000
+I'm using an external library/module that gets X-Plane IP and PORT dynamically
+
+    self.beacon = self.find_my_xplane()
+
+**Sample beacon data:**
+
+    {
+	    'ip': '192.168.1.36', 
+	    'port': 49000, 
+	    'hostname': 'your_hostname', 
+	    'xplane_version': 121100, 
+	    'role': 1, 
+	    'raknet_port': 49010
+	 }
 
 # Create a socket / instantiate an object
 
@@ -141,5 +151,6 @@ Printing function inside our callback
  - Create a GUI X-Plane dashboards
 
  
+
 
 
