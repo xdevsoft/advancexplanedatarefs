@@ -133,15 +133,12 @@ Printing function inside our callback
  - Ubuntu Linux 20.04 (Steam & X-Plane)
  - Development/Client Laptop
 	 - Linux / Python 3.10.12
-	 - MacBook / Python 3.12.2
+	 - Mac / Python 3.12.2
 
 # What's next?
 
- - Received data continuously 
- - Subscribe to multiple channels
- - Use callback and event
- - Get X-Plane IP and port dynamically
- - Use threading
+ - Integrate or use it with my 3DOF DIY hardware
+ - Create a GUI X-Plane dashboards
 
  
 
